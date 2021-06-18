@@ -8,12 +8,12 @@ namespace Restaurant_WebAPI.Models
 {
     public class Menu
     {
-        [Key]
+        [Key]//primary key
         public int id { get; set; }
-        public string Dish_Name { get; set; }
-        public string Dietary_Restrictions { get; set; }
-        public int Rating { get; set; }
-        public int Price { get; set; }
+        public string Dish_Name { get; set; }//name of dish
+        public string Dietary_Restrictions { get; set; }//name  of dietary restrictions
+        public int Rating { get; set; }//dish rating
+        public int Price { get; set; }// dish price
         
     }
 }
